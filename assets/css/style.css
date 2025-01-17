@@ -1,3 +1,9 @@
+html {
+  /* Ecco il font))) */
+  font-family: sans-serif, "Gill Sans", sans-serif;
+  font-size: 80%;
+}
+
 body {
   background-color: #0e0e0e !important;
 }
@@ -25,4 +31,29 @@ header {
 
 .socialLink {
   color: rgb(137, 136, 136);
+}
+
+.maturilyBtn {
+  font-size: 1rem !important;
+  font-weight: 600;
+  padding: 5px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btnSave {
+  font-size: 1.5rem !important;
+  align-items: center;
+  flex: 1 !important;
+}
+
+.big {
+  flex-grow: 3 !important;
 }
